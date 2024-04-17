@@ -4,7 +4,7 @@ from OpenGL.GLUT import *
 
 def display():
     glClear(GL_COLOR_BUFFER_BIT)
-    # Blue Triangle
+    # blue robot
 
     glColor3f(0, 1, 1)
 
@@ -46,6 +46,6 @@ glutInit()
 glutInitWindowPosition(0, 100)
 glutInitWindowSize(500, 500)
 glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB)
-glutCreateWindow(b" Triangle ")
+glutCreateWindow(b" Robot Wallet")
 glutDisplayFunc(display)
 glutMainLoop()

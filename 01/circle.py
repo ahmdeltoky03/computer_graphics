@@ -4,7 +4,7 @@ from math import *
 
 def display():
     glClear(GL_COLOR_BUFFER_BIT)
-    # Blue Triangle
+    # Blue circle
     glColor3f(0, 1, 1)
     r = 1
     glBegin(GL_LINE_LOOP)
@@ -20,6 +20,6 @@ glutInit()
 glutInitWindowPosition(0, 100)
 glutInitWindowSize(500, 500)
 glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB)
-glutCreateWindow(b" Triangle ")
+glutCreateWindow(b" Circle ")
 glutDisplayFunc(display)
 glutMainLoop()
