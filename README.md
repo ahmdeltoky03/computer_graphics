@@ -1,5 +1,5 @@
 # Computer Graphics
-To be familiar with this Repo you should have a basic knowledge of Python language and OpenGL.
+To be familiar with this Repo you should have a basic knowledge of `Python language` and `OpenGL`.
 
 ## Prerequisites
 
